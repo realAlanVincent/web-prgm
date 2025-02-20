@@ -1,0 +1,55 @@
+body
+{
+  font-family: Arial, sans-serif;
+  background-color: lightyellow;
+  margin: 0;
+  padding: 20px;
+}
+
+h1
+{
+  color: darkblue;
+  text-align: center;
+}
+
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td
+{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th
+{
+  background-color: lightblue;
+  color: darkred;
+}
+
+td
+{
+  background-color: white;
+}
+
+tr:nth-child(even) td
+{
+  background-color: lightgrey;
+}
+
+.break
+{
+  background-color: orange;
+  font-weight: bold;
+}
+
+.lunch
+{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
