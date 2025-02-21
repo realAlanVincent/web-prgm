@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Center and style the form */
+form {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style labels to display as block elements with spacing */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* General styling for text inputs, selects, textareas, etc. */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="color"],
+input[type="file"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Specific styling for the range input */
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0 15px;
+}
+
+/* Style the fieldset and legend for radio buttons */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+legend {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+/* Adjust checkbox and radio button spacing */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+  transform: scale(1.2);
+}
+
+/* Style the submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0056b3;
+}
