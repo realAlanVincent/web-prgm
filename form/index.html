@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Form Example</title>
+</head>
+<body>
+  <form action="/submit" method="post">
+
+    <!-- Text input -->
+    <label for="text">Text:</label>
+    <input type="text" id="text" name="text"><br><br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- URL input -->
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url"><br><br>
+
+    <!-- Search input -->
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search"><br><br>
+
+    <!-- Telephone input -->
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel"><br><br>
+
+    <!-- Number input -->
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number"><br><br>
+
+    <!-- Range input -->
+    <label for="range">Range (0 to 100):</label>
+    <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+    <!-- Date input -->
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br><br>
+
+    <!-- Time input -->
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br><br>
+
+    <!-- Datetime-local input -->
+    <label for="datetime-local">Datetime-local:</label>
+    <input type="datetime-local" id="datetime-local" name="datetime-local"><br><br>
+
+    <!-- Month input -->
+    <label for="month">Month:</label>
+    <input type="month" id="month" name="month"><br><br>
+
+    <!-- Week input -->
+    <label for="week">Week:</label>
+    <input type="week" id="week" name="week"><br><br>
+
+    <!-- Color input -->
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+    <!-- File input -->
+    <label for="file">File:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <!-- Checkbox -->
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+    <!-- Radio buttons -->
+    <fieldset>
+      <legend>Radio Buttons</legend>
+      <input type="radio" id="radio1" name="radio" value="option1">
+      <label for="radio1">Option 1</label>
+      <input type="radio" id="radio2" name="radio" value="option2">
+      <label for="radio2">Option 2</label>
+    </fieldset>
+    <br>
+
+    <!-- Textarea -->
+    <label for="textarea">Textarea:</label>
+    <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Select dropdown -->
+    <label for="select">Select:</label>
+    <select id="select" name="select">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select><br><br>
+
+    <!-- Hidden input -->
+    <input type="hidden" name="hidden" value="hiddenValue">
+
+    <!-- Submit and Reset buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
